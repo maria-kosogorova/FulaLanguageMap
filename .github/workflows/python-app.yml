@@ -4,9 +4,7 @@
 name: Python application
 
 on:
-
-permissions:
-  contents: read
+  workflow_dispatch:
 
 jobs:
   build:
